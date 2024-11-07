@@ -9,7 +9,7 @@
         return AddNumber;
     }
     
-    console.log(sumArray ([1, 2, 3, 4, 5]) ); 
+    console.log(`Sum of Array is:`, sumArray ([1, 2, 3, 4, 5]) ); 
 
     //
 
