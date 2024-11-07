@@ -19,7 +19,5 @@
     //Result
     console.log(updateProfile(myProfile, {age: 26 }));
 
-
-
     //
 }
