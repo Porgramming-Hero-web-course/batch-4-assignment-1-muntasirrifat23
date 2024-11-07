@@ -1,15 +1,16 @@
 {
     //
-    function addAll(number1: number, number2:number, number3: number, number4:number, number5: number){
-        return number1+number2+number3+number4+number5;
+
+    function sumArray(AllNumber: number[]): number {
+        let AddNumber = 0;
+        for(let All of AllNumber){
+            AddNumber = All + AddNumber;
+        }
+        return AddNumber;
     }
-    addAll(1,2,3,4,5);
-    console.log(addAll)
-
-
-
     
-    
+    console.log(sumArray ([1, 2, 3, 4, 5]) ); 
+
     //
 
 }
